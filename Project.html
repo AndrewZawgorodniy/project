@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Project.js" defer></script>
+    <link rel="stylesheet" href="Project.css">
+    <title>Project</title>
+</head>
+<body>
+    <h1>Проект</h1>
+    <h2>Задачи по микро и макро</h2>
+    <div class="task">
+        <span>№1</span>
+        <p>
+            Определите ВВП, исчисленный производственным методом: рыночная цена выпущенной
+            продукции - 2000; текущие материальные издержки - 800; амортизационные
+            отчисления- 200; косвенные налоги на товары и услуги - 300; государственные субсидии
+            на их производство - 200 
+        </p>
+               <div class="form">
+            <input type="number" id="a" placeholder="проверить ответ">
+            <div class="button">
+                <div class="button_1"><button onclick="res_1(a)">Проверить ответ</button></div>
+                <div class="button_1"><button onclick="dec_1()">Показать решение</button></div>
+            </div>
+            <hr>
+            <div class="otvet">
+                <p class="result" id="result_1"></p>
+                <p class="decision" id="decision_1"></p>
+        </div>
+    </div>
+    <div class="task">
+        <span>№2</span>
+        <p>
+            Ожидаемая норма прибыли от инвестиций в реальном исчислении составляет
+            10%, рыночная ставка процента - 12%, ежегодный темп инфляции - 10%. Найти реальную ставку процента? 
+        </p>
+        <div class="form">
+            <input type="number" id="b" placeholder="проверить ответ">
+            <div class="button">
+                <div class="button_1"><button onclick="res_2(a)">Проверить ответ</button></div>
+                <div class="button_1"><button onclick="dec_2()">Показать решение</button></div>
+            </div>
+            <hr>
+            <div class="otvet">
+                <p class="result" id="result_2"></p>
+                <p class="decision" id="decision_2"></p>
+        </div>
+        </div> 
+    </div>
+    <div class="task">
+        <span>№3</span>
+        <p>
+            Определите стоимость основных фондов по следующим данным (млн. руб.): здания и
+            сооружения - 50000; станки и оборудование - 13000; инструменты сроком службы более
+            года - 17000; средства вычислительной техники - 4000; сырье и материалы - 6800; тара
+            и тарные материалы - 920.
+        </p>
+        <div class="form">
+            <input type="number" id="c" placeholder="проверить ответ">
+            <div class="button">
+                <div class="button_1"><button onclick="res_3(a)">Проверить ответ</button></div>
+                <div class="button_1"><button onclick="dec_3()">Показать решение</button></div>
+            </div>
+            <hr>
+            <p class="result" id="result_3"></p>
+            <p class="decision" id="decision_3"></p>
+        </div>
+    </div>
+</body>
+</html>
